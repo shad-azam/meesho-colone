@@ -297,7 +297,9 @@ const Navbar = () => {
             </p>
           </Link>
         </section>
-        <p>This project is part of the Newton School SkillsBuild program</p>
+        <div>
+          <p>This project is part of the Newton School SkillsBuild program</p>
+        </div>
         <section id="bottom" onMouseOver={mouseOver} onMouseOut={mouseOut}>
           <ul>
             {listItems.map((i, index) => (
