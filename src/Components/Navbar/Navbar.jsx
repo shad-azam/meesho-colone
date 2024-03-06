@@ -68,6 +68,7 @@ const Navbar = () => {
 
   return (
     <>
+      Shad Azam
       <FaAlignJustify id="hidden-menu-open" onClick={modalOpen} />
       <Aside id="hidden-menu">
         <button onClick={modalClose}>X</button>
