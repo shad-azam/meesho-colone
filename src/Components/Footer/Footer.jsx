@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </section>
 
-      <section id="section-2">
+{/*       <section id="section-2">
         <div className="heading1" label="More About Meesho">
           <h4>More About Meesho</h4>
           <svg
@@ -420,7 +420,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </Foot>
   );
 };
