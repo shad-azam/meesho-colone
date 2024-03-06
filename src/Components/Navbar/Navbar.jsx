@@ -297,8 +297,8 @@ const Navbar = () => {
             </p>
           </Link>
         </section>
-        <div style={{marginTop: '10px', marginBottom: '20px', alignItems: 'center', textAlign: 'center', backgroundColor: 'lightblue'}}>
-          <p>This project is part of the Newton School SkillsBuild program</p>
+        <div style={{marginTop: '10px', marginBottom: '10px', alignItems: 'center', textAlign: 'center', backgroundColor: '#3C3C3C'}} >
+          <p style={{marginTop: '10px', marginBottom: '10px', alignItems: 'center', textAlign: 'center', color:'red'}}>This project is part of the Newton School SkillsBuild program</p>
         </div>
         <section id="bottom" onMouseOver={mouseOver} onMouseOut={mouseOut}>
           <ul>
