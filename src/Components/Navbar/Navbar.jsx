@@ -68,7 +68,6 @@ const Navbar = () => {
 
   return (
     <>
-      Shad Azam
       <FaAlignJustify id="hidden-menu-open" onClick={modalOpen} />
       <Aside id="hidden-menu">
         <button onClick={modalClose}>X</button>
@@ -298,6 +297,7 @@ const Navbar = () => {
             </p>
           </Link>
         </section>
+        <p>This project is part of the Newton School SkillsBuild program</p>
         <section id="bottom" onMouseOver={mouseOver} onMouseOut={mouseOut}>
           <ul>
             {listItems.map((i, index) => (
